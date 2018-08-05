@@ -1,0 +1,43 @@
+.game {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#home {
+    width: 350px;
+    height: 350px;
+    background-image: url('../assets/img/pizzaSnake.png');
+    background-size: auto 350px;
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    background-position: center center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    bottom: 0;
+    height: 30px;
+    font-size: 12pt;
+    width: 90px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+button:disabled {
+    background-color: grey;
+}
+
+
+p {
+    font-family: Helvetica;
+    font-weight: bold;
+    width: 250px;
+    margin: 0 auto;
+}

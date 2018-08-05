@@ -1,0 +1,11 @@
+var myCanvas = document.getElementById('myCanvas');
+var ctx = myCanvas.getContext('2d');
+var width = myCanvas.getAttribute("width");
+var height = myCanvas.getAttribute("height");
+var startingLength = 3;
+var score = 0;
+var snake;
+var snakeSize = 10;
+var canvasRightEdge = width / snakeSize;
+var canvasBottomEdge = height / snakeSize;
+var MS_PER_SECOND = 40;
