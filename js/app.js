@@ -9,23 +9,23 @@
         keyCode = event.keyCode;
 
         switch (keyCode) {
-            case 37:
+            case LEFT:
                 if (direction != 'right') {
                     direction = 'left';
                 }
                 break;
-            case 39:
+            case RIGHT:
                 if (direction != 'left') {
                     direction = 'right';
                 }
                 break;
 
-            case 38:
+            case UP:
                 if (direction != 'down') {
                     direction = 'up';
                 }
                 break;
-            case 40:
+            case DOWN:
                 if (direction != 'up') {
                     direction = 'down';
                 }
